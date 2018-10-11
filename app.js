@@ -27,7 +27,7 @@ const App = ( () => {
                    
     function fetchedData () {
         
-        fetch('https://api.wmata.com/Bus.svc/json/jBusPositions?api_key='+params.api_key+'&RouteID='+params.RouteID)
+        fetch('http://api.wmata.com/Bus.svc/json/jBusPositions?api_key='+params.api_key+'&RouteID='+params.RouteID)
        .then((response) => response.json())
        .then((data) => {
         
