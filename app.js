@@ -9,7 +9,9 @@ const App = ( () => {
     
     var platform = new H.service.Platform({
         'app_id': 'PgfFKWWbq5cIPb02KfcS',
-        'app_code': 'ywqn9dpunVgNAUu8x0N8rg'
+        'app_code': 'ywqn9dpunVgNAUu8x0N8rg',
+        useCIT: true,
+        useHTTPS: true
         });
     
         // Obtain the default map types from the platform object
