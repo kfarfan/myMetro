@@ -22,7 +22,7 @@ const App = ( () => {
             document.querySelector('#root'),
             maptypes.normal.map,
                 {
-                    zoom: 11.5,
+                    zoom: 11,
                     center: { lng: -77.0910, lat: 38.8816 }
                 })    
                          
