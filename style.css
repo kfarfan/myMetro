@@ -11,8 +11,8 @@ body {
 #root {
     margin: 0 auto;
     font-size: 50px;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
 }
 #root:hover {
     cursor: pointer;

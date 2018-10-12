@@ -36,10 +36,9 @@ const App = ( () => {
            let output = `<h2>Bus Timings</h2>`;
            data.BusPositions.forEach(item => {
                output += 
-               `<ul>
-                   <li>[${item.TripHeadsign}] ${item.DirectionText}</li>
-                   <li>${item.RouteID}</li>
-                   <li>${item.DateTime} </li>
+               `<ul class="list-group list-group-flush">
+                   <li class="list-group-item"> ${item.RouteID} [${item.TripHeadsign}] ${item.DirectionText} </br>
+                  ${item.DateTime}</li>
                </ul>
         
                `
@@ -52,7 +51,8 @@ const App = ( () => {
                ;
            })
            
-           document.querySelector('#maps').innerHTML = output;
+           
+           document.querySelector('.maps').innerHTML = output;
        })
        .catch(err => err)
        
