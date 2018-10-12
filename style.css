@@ -5,10 +5,12 @@
 }
 
 body {
-    background-image: url('https://pbs.twimg.com/profile_images/1013740232863182848/MxuDvXhm_400x400.jpg');
+    background-image: url('street.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 #root {
+    padding: 1rem;
     margin: 0 auto;
     font-size: 50px;
     height: 500px;
